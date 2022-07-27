@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Portfolio</title>
+  <style>
+    .navbar:hover {
+      background-color: black;
+      flex: auto;
+    }
+
+    #box {
+      display: flex;
+      height: 200px;
+      width: 200px;
+      background-color: black;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.5s ease-in-out 0.5s;
+    }
+
+    #box:hover {
+      background-color: darkcyan;
+      color: aliceblue;
+      width: 400px;
+      height: 400px;
+    }
+    .icons {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+    }
+
+    @media only screen and (max-width: 300px) {
+      .laptop {
+        display: none;
+      }
+
+      .youtube {
+        display: none;
+      }
+
+      .paragraph {
+        font-weight: 200;
+      }
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 500px) {
+      .laptop {
+        display: none;
+      }
+
+      .youtube {
+        display: none;
+      }
+
+      .paragraph {
+        font-weight: 400;
+      }
+    }
+
+    @media only screen and (min-width: 500px) and (max-width: 800px) {
+      .laptop {
+        display: none;
+      }
+
+      .youtube {
+        display: none;
+      }
+
+      .paragraph {
+        font-weight: 500;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="/assets/index.ee645225.css">
+</head>
+
+<body>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  <header class="bg-[url('https://wallpaperset.com/w/full/5/6/9/171622.jpg')] w-full bg-no-repeat">
+    <nav class="navbar flex justify-content-around">
+      <div class="flex">
+        <img class="rounded-full max-h-10"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbho2m1AtG7mqdzpfC_9F01rudfGSKKh0ysg&usqp=CAU"
+          alt="">
+        <h2 class="text-2xl text-white">Paisa Kamao</h2>
+      </div>
+      <div class="flex">
+        <li class="nav-item dropdown list-unstyled">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+
+        <a href="#" class="text-white text-lg mt-2">Templates</a>
+
+        <li class="nav-item dropdown list-unstyled">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Resources
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </div>
+      <div class="d-grid gap-2 d-md-block">
+        <a class="text-white text-2xl text-decoration-none mx-4 py-6" href="#">Login</a>
+        <button class="btn btn-light text-blue-900" type="button">Get Started</button>
+      </div>
+    </nav>
+    <div class="container2 flex justify-around items-center">
+
+      <h1 class="paragraph order-1 text-4xl justify-center"> Hi! We are Story teller'<br>
+        As visual storytellers we transform any <br> concept into a unique visual language<br> with a little bit of
+        magic & fairy dust.</h1>
+      <div class="laptop mt-48 order-2 "><img src="/assets/pnimg.21b82181.png" alt="" height="500" width="500"></div>
+    </div>
+  </header>
+  <aside class="icons space-y-3 bg-transparent flex-col justify-items-end">
+    <div><a href="https://www.facebook.com/"
+        class="fa fa-facebook  text-center p-[17px] w-[50px] text-white bg-blue-600 rounded-full hover:bg-blue-700 "></a>
+    </div>
+    <div><a href="https://www.twitter.com/"
+        class="fa fa-twitter  text-center p-[17px] w-[50px] text-white bg-[#55ACEE] rounded-full hover:bg-blue-500 "></a>
+    </div>
+    <div><a href="https://www.linkedin.com/"
+        class="fa fa-linkedin  text-center p-[17px] w-[50px] text-white bg-blue-600 rounded-full hover:bg-blue-700 "></a>
+    </div>
+  </aside>
+  <section1 class=" bg-white flex-col">
+    <div class="flex justify-around mt-20">
+      <h1 class="paragraph text-6xl font-bold">Pick your <br> starting point</h1>
+      
+      <h1 class="paragraph text-3xl">Simply add a Portfolio Page to the Squarespace <br> template of your choice. Or,
+        get inspired by <br> browsing the most popular portfolio templates.<br><br>
+        
+        <ins> BROWSE TEMPLATES → </ins>
+      </h1>
+    </div>
+    <div class="flex justify-between mx-20 flex-wrap items-center">
+      <div class="flex justify-center items-center w-1/2" ><div class="boxx mr-16" id="box">Wanna my autograph</div>
+      </div>
+    <div class="w-1/2 h-[460px]">
+      <div id="carouselExampleCaptions" class="carousel slide float-right items-end" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/assets/img1.01a5ec31.jpg"
+              class="d-block w-100" height="400px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-black">First slide label</h5>
+              <p class="text-black">Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/assets/img2.ed930bdf.jpg"
+              class="d-block w-100" height="400px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-black">Second slide label</h5>
+              <p class="text-black">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/assets/img3.cb039ed4.jpg"
+              class="d-block w-100" height="400px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-black">Third slide label</h5>
+              <p class="text-black">Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    </div>
+    <p style="margin-left: 280px; margin-top: 0px;">Touch me</p>
+    </div>
+  </section1>
+
+  <footer class="bg-amber-500 flex-col justify-around space-y-6 py-6">
+    <div>
+      <h1 class="text-4xl flex justify-center ">Create a portfolio <br> that stands out.</h1>
+    </div>
+    <div>
+      <h1 class="text-2xl flex justify-center">Choose from a variety of unique layouts to find the one<br>that best
+        displays your work. Add individual projects <br> to keep your website organized and easy-to-navigate.</h1>
+    </div>
+    <div class="text-2xl flex justify-center"><img
+        src="https://st2.depositphotos.com/1032577/6582/i/450/depositphotos_65828845-stock-photo-portfolio-written-on-notebook.jpg"
+        alt=""></div>
+  </footer>
+
+  <last class="bg-slate-600 flex justify-around">
+    <div class="box-border px-12 py-12">
+      <h1>Expand Your Network</h1>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <div class="youtube box-border px-12 py-12">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/d4zVRA6xHvo" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+  </last>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
