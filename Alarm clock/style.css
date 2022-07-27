@@ -1,0 +1,51 @@
+.mytimer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    padding: 2px;
+    margin-top: 50px;
+}
+#morning{
+    display: none;
+}
+#noon{
+    display: none;
+}
+#evening{
+    display: none;
+}
+#night{
+    display: none;
+}
+.img{
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.image img{
+    width: 400px;
+    height: 400px;
+}
+h2{
+    border: 2px solid black;
+    padding: 30px;
+    background-color: rgb(25, 17, 57);
+    border-radius: 5px;
+    color: white;
+    margin: 3px;
+}
+h3{
+    border: 2px solid black;
+    padding: 15px;
+    background-color: rgb(25, 17, 57);
+    border-radius: 5px;
+    color: white;
+    margin: 3px;
+}
+body{
+    background-color: rgb(110, 155, 189);
+}
