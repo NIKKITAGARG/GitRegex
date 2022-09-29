@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="input.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        img {
+           opacity: 4.0;
+        }
+        footer {
+        background-color: #090800;
+        }
+        section{
+            background-color: black;
+        }
+        footer div div:hover{
+            color: red;
+        }
+        @media only screen and (max-width: 300px) {
+           .fom{
+              width: 120px;
+           }
+           .foot{
+            font-size: x-small;
+           }
+           
+        }
+        @media only screen and (min-width: 300px) and (max-width: 500px) {
+        .fom{
+           width: 200px;
+        }
+        .foot{
+            font-size: smaller;
+        }
+
+    }
+        @media only screen and (min-width: 500px) and (max-width: 800px) {
+        .fom{
+           width: 350px;
+        }
+        .foot{
+            font-size: small;
+        }
+        .formsidetext{
+            margin-bottom: 20px;
+        }
+        }
+        @media only screen and (min-width: 800px) {
+        .fom{
+           width: 500px;
+        }
+        .foot{
+            font-size: medium;
+        }
+        }
+    </style>
+
+    <title>Hello</title>
+  </head>
+  <body>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+      <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="https://wallpaperaccess.com/full/740229.jpg" class="d-block w-100" alt="..." height="450" width="1600">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.HqFNdltZe7D-AW2j_VADvQHaE7&pid=Api&P=0" class="d-block w-100"  alt="..." height="450" width="1600">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.aP9URK29-ryjVmyqN7LVBAHaE8&pid=Api&P=0" class="d-block w-100" alt="..." height="450" width="1600">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section>
+        <div class="container text-center"  style="color: white;">
+            <div class="row">
+              <div class="formsidetext col-sm-4" style="margin-top: 100px; margin-bottom: 100px;">
+                <div style="display: flex;"><h2 style="color: red;">LET'S&nbsp;</h2><h2>TALK</h2> </div>
+                <div style="display: flex;"><p>Interested in our service?<br>
+                    Have a question? <br>  
+                    We'd be happy to help you! <br></p></div>
+                </div>
+              <div class="col-sm-8" style="margin-top: 40px; margin-bottom: 40px;">
+                <form">
+                    <div>
+                        <input class="fom" style="background-color: black; margin: 10px;" placeholder="Name">
+                      </div>
+                    <div>
+                        <input class="fom" style="background-color: black; margin: 10px;"  placeholder="Email">
+                      </div>
+                      <div>
+                        <input class="fom" style="background-color: black; margin: 10px;" placeholder="Phone">
+                    </div>
+                      <div>
+                        <input class="fom" style="background-color: black; margin: 10px;" placeholder="Message">
+                      </div>
+                    <button class="fom" type="submit" style=" margin: 10px; " class="form-control btn btn-danger">SEND</button>
+                  </form>
+              </div>
+            </div>
+      </section>
+
+      <aside class="icons space-y-3 bg-transparent flex-col justify-items-end">
+        <div><a href="https://www.facebook.com/"
+            class="fa fa-facebook  text-center p-[17px] w-[50px] text-white bg-blue-600 rounded-full hover:bg-blue-700 "></a>
+        </div>
+        <div><a href="https://www.twitter.com/"
+            class="fa fa-twitter  text-center p-[17px] w-[50px] text-white bg-[#55ACEE] rounded-full hover:bg-blue-500 "></a>
+        </div>
+        <div><a href="https://www.linkedin.com/"
+            class="fa fa-linkedin  text-center p-[17px] w-[50px] text-white bg-blue-600 rounded-full hover:bg-blue-700 "></a>
+        </div>
+      </aside>
+
+      <footer class="foot">
+        <div class="d-flex flex-wrap" style="color: white;  justify-content: space-evenly; padding: 10px;">
+            <div style=" margin: 50px;">
+                <h4>About Us</h4>
+                <p>Kirloskar Group <br> Kirloskar Technologies <br> Management Team <br> <br> Life @ KPTL/Careers <br> News/Events</p>
+                <h5>Privacy Policy</h5>
+            </div>
+            <div style=" margin: 50px;"><h4>Products</h4>
+                <h5>Oncology</h5></div>
+            <div class="img" style=" margin: 50px;"> <img src="https://www.kirloskarmedical.com/uploads/2/9/0/5/29050285/editor/25-year-logo-png.png?1515254869" alt="" ></div>
+            <div style=" margin: 50px;"><h4>Corporate Office</h4>
+            <p>B-58, First Floor, Defence Colony,<br> 
+                Bhisham Pitamah Marg, <br>
+                New Delhi - 110024, India.<br></p>
+                <br>
+                <p><strong>Phone</strong> : +91-11-43523125 <br>
+                    <strong>Phone</strong> : +91-11-41403967 <br>
+                    <strong>Fax</strong> : +91-11-24331367 <br></p>
+            </div>
+        </div>
+        <div style="color: white; text-align: center; font-size: small;"><p>Website Designed & Maintained : Regex Software Services</p></div>
+      </footer>
+  </body>
+</html>
